@@ -30,7 +30,7 @@ function onFetchSuccess(data) {
     if (data.length >= 2 && data.length <= 10) {
         clearCountryInfo()
         renderCountryList(data)
-        console.log('1');
+        console.log("1")
     }
 
     if (data.length > 10) {
